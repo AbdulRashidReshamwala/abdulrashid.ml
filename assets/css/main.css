@@ -1,0 +1,94 @@
+.nav-link {
+    color: aliceblue;
+    font-weight: bold
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat';
+}
+
+.full-section {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+#landing {
+    background-image: url('/assets/sec-1-bg.jpg')
+}
+
+#intro {
+    font-weight: bold;
+    color: black;
+    padding-top: 20rem;
+}
+
+#about-me {
+    background-image: url('/assets/sec-2-bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamic-section {
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+}
+
+#projects {
+    background-image: url('/assets/sec-2-bg.jpg');
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+}
+
+#projects>.container>h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #eeeeee;
+    font-weight: bold
+}
+
+.project {
+    width: 100%;
+}
+
+#contact {
+    font-weight: bolder
+}
+
+#contact>.container>h1 {
+    font-weight: 1000
+}
+
+#contact>.container>p {
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 900px) {
+    #contact {
+        background-image: url('/assets/sec-3-bg.jpg');
+        color: aliceblue;
+    }
+    #projects {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.9;
+    }
+}
